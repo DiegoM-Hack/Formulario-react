@@ -95,7 +95,7 @@ const FormularioRegistro = () => {
             type="date"
             value={fecha}
             onChange={(e) => setFecha(e.target.value)}
-            required
+            
           />
         </label>
 
