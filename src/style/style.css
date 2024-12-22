@@ -1,0 +1,84 @@
+/* General */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #8686e6;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  /* Contenedor del formulario */
+  .formulario-container {
+    background-color: #ffffff;
+    padding: 20px 30px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 290px;
+    text-align: center;
+    
+  }
+  
+  /* Títulos */
+  h2 {
+    margin-bottom: 20px;
+    color: #333333;
+  }
+  
+  /* Formularios */
+  .formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  label {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    font-size: 14px;
+    color: #666666;
+  }
+  
+  input {
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  input:focus {
+    outline: none;
+    border-color: #007bff;
+  }
+  
+  /* Botón */
+  button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Mensaje de confirmación */
+  .mensaje-confirmacion {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #28a745;
+    background-color: #d4edda;
+    color: #155724;
+    border-radius: 4px;
+    white-space: pre-line;
+    text-align: left;
+  }
